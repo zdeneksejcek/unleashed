@@ -1,0 +1,37 @@
+{
+  "name": "unleashedexperimental",
+  "preferGlobal": false,
+  "version": "0.0.13",
+  "author": "Zdenek Sejcek <zdenek@unleashedsoftware.com>",
+  "description": "Unleashed Experimental SPA",
+  "contributors": [
+    {
+      "name": "Zdenek Sejcek",
+      "email": "zdenek@unleashedsoftware.com"
+    }
+  ],
+  
+  "keywords": [
+    "unleashed"
+  ],
+
+  "dependencies": {
+    "grunt": "*",
+    "grunt-angular-templates": "*",
+    "grunt-typescript": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-clean": "*",
+    "grunt-preprocess": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-ftp-deploy": "*",
+    "grunt-contrib-cssmin": "*",
+    "grunt-contrib-htmlmin": "*",
+    "grunt-bump": "*",
+    "protractor": "*",
+    "grunt-contrib-stylus": "*"
+  },
+
+  "engines": {
+    "node": ">=0.10"
+  }
+}

@@ -1,0 +1,19 @@
+# Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
+[Bb]in/
+[Oo]bj/
+
+#xamarin studio test results
+src/DIOS.Tests/test-results/
+
+#node_modules
+node_modules
+selenium
+
+#javascript files from TypeScript directories
+output
+src/*.js
+src/*.map
+tests/*.js
+tests/*.map
+src/**/*.js
+src/**/*.map
