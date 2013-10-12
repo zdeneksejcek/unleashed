@@ -6,7 +6,7 @@ class Router {
 
     constructor($routeProvider:ng.IRouteProvider) {
         $routeProvider
-            .when('/',  <ng.IRoute>{ templateUrl: 'home.html' })
+            .when('/',  <ng.IRoute>{ templateUrl: 'login.html' })
             .otherwise( <ng.IRoute>{ templateUrl: '404.html' });
     }
 }
