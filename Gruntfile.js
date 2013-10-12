@@ -6,7 +6,7 @@ module.exports = function(grunt) {
 
     ngtemplates: {
       app:       {
-          cwd:          'output/temp/src/views',
+          cwd:          'output/temp/src',
           src:          '**/*.html',
           dest:         'output/app/views.js',
 
@@ -18,7 +18,7 @@ module.exports = function(grunt) {
 
     typescript: {
         app: {
-            src: ['src/app/App.ts'],
+            src: ['src/App.ts'],
             dest: 'output/app/app.js'
         },
 
@@ -80,12 +80,12 @@ module.exports = function(grunt) {
       stylus: {
         app: {
           files: {
-              'output/app/style.css': 'src/css/app.styl'
-          },
+              'output/app/style.css': ['src/**/*.styl']
+          }
         },
         release: {
           files: {
-              'output/release/style-<%= pkg.version %>.min.css': 'src/css/app.styl'
+              'output/release/style-<%= pkg.version %>.min.css': 'src/shared/app.styl'
           }
         }
       },
@@ -94,9 +94,7 @@ module.exports = function(grunt) {
           app: {
               files: [
                   {expand: true, src: ['libs/angular.js'], dest: 'output/app/', flatten: true},
-                  {expand: true, src: ['libs/jquery.js'], dest: 'output/app/', flatten: true},
-
-                  {expand: true, src: ['src/css/style.css'], dest: 'output/app/', flatten: true}
+                  {expand: true, src: ['libs/jquery.js'], dest: 'output/app/', flatten: true}
               ]
           },
           release: {
@@ -133,7 +131,7 @@ module.exports = function(grunt) {
                   collapseWhitespace: true
               },
               expand: true,
-              src: ['src/views/**/*.html'],
+              src: ['src/**/*.html'],
               dest: 'output/temp/'
         }
       },

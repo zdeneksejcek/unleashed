@@ -1,4 +1,4 @@
-/// <reference path="../../libs/d.ts/DefinitelyTyped/angularjs/angular.d.ts" />
+/// <reference path="../libs/angular.d.ts" />
 
 /// <reference path="HomeController.ts" />
 /// <reference path="Configuration.ts" />

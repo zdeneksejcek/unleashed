@@ -1,0 +1,642 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ba",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/Routing.ts",
+			"settings":
+			{
+				"buffer_size": 319,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/App.ts",
+			"settings":
+			{
+				"buffer_size": 427,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "libs/jquery.d.ts",
+			"settings":
+			{
+				"buffer_size": 28239,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/Configuration.ts",
+			"settings":
+			{
+				"buffer_size": 89,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/HomeController.ts",
+			"settings":
+			{
+				"buffer_size": 162,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 4816,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/shared/app.styl",
+			"settings":
+			{
+				"buffer_size": 39,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/shared/skin.css",
+			"settings":
+			{
+				"buffer_size": 57683,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/T3S/Typescript.sublime-build",
+	"command_palette":
+	{
+		"height": 127.0,
+		"selected_items":
+		[
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/src/unleashed/libs/angular.d.ts",
+		"/C/src/unleashed/src/shared/layout.css",
+		"/C/src/unleashed/src/views/home.html",
+		"/C/src/experimental/Gruntfile.js",
+		"/C/Temp/BH/web/templates/html_footer.php",
+		"/C/src/experimental/.gitignore",
+		"/C/src/experimental/src/app/HomeController.ts",
+		"/C/src/experimental/src/views/home.html",
+		"/C/src/experimental/index.tpl.html",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/src/experimental/output/release/style-0.0.12.min.css",
+		"/C/src/experimental/output/app/style.css",
+		"/C/src/experimental/app.css",
+		"/C/src/experimental/node_modules/protractor/example/onMocha.js",
+		"/C/src/experimental/package.json",
+		"/C/src/experimental/src/css/style.css",
+		"/C/src/experimental/src/css/app.styl",
+		"/C/src/experimental/output/release/style-0.0.10.min.css",
+		"/C/src/experimental/node_modules/grunt-contrib-stylus/package.json",
+		"/C/src/experimental/node_modules/grunt-contrib-stylus/Gruntfile.js",
+		"/C/src/experimental/node_modules/protractor/example/protractorConf.js",
+		"/C/src/experimental/node_modules/protractor/referenceConf.js",
+		"/C/src/experimental/node_modules/protractor/bin/protractor",
+		"/C/src/experimental/selenium/start",
+		"/C/src/experimental/node_modules/protractor/bin/install_selenium_standalone",
+		"/C/src/experimental/output/release/style-0.0.9.min.css",
+		"/C/Temp/DIOS/dios_webapp/src/app/HomeController.ts",
+		"/C/src/experimental/node_modules/grunt-angular-templates/package.json",
+		"/C/Temp/DIOS/dios_webapp/node_modules/grunt-angular-templates/package.json",
+		"/C/src/experimental/output/release/index.html",
+		"/C/src/experimental/output/release/app-0.0.2.min.js",
+		"/C/src/experimental/output/app/app.js",
+		"/C/src/experimental/output/app/angular.js",
+		"/C/src/experimental/output/app/views.js",
+		"/C/Temp/DIOS/dios_webapp/output/app/views.js",
+		"/C/src/experimental/node_modules/grunt-angular-templates/Gruntfile.js",
+		"/C/src/experimental/src/app/app.ts",
+		"/C/src/experimental/src/app/Routing.ts",
+		"/C/Temp/DIOS/dios_webapp/src/app/App.ts",
+		"/C/src/experimental/output/temp/src/views/home.html",
+		"/C/src/experimental/src/app/Configuration.ts",
+		"/C/src/experimental/output/app/index.html",
+		"/C/src/trunk_no_changes/Unleashed.Localization.Resources/UI/SalesOrder/cs-CZ.yaml",
+		"/C/src/trunk_no_changes/Unleashed.Localization.Resources/UI/UI/en-NZ.yaml",
+		"/C/src/trunk_no_changes/Unleashed.Localization.Resources/UI/SalesOrder/en-NZ.yaml",
+		"/C/src/experimental/.ftppass",
+		"/C/src/experimental/output/release/app-0.0.1.min.js",
+		"/C/Temp/BH/web/index.php",
+		"/C/Temp/DIOS/dios_webapp/libs/local-storage.js",
+		"/C/Temp/DIOS/dios_webapp/libs/d.js",
+		"/C/Temp/DIOS/dios_webapp/tests.html",
+		"/C/Temp/DIOS/dios_webapp/web.tpl.config",
+		"/C/Temp/DIOS/dios_webapp/index.tpl.html",
+		"/C/SalesOrder.html",
+		"/C/Temp/DIOS/dios_webapp/src/views/home.html",
+		"/C/Users/zdenek/Downloads/FlexSearch.0.2.0.0/Api/index.html",
+		"/C/src/trunk_no_changes/Unleashed.Localization/Locales/Common/en-NZ.yaml",
+		"/F/Software/apache-cassandra-2.0.0/conf/cassandra.yaml",
+		"/C/src/trunk_no_changes/Unleashed.Localization.Resources/UI/Shared.en-NZ.yaml",
+		"/C/Users/zdenek/Downloads/ftpsync.py",
+		"/C/src/trunk_no_changes/Unleashed.Localization/Locales/UI/SalesOrder/en-NZ.yaml",
+		"/C/src/FAILING.txt",
+		"/C/src/trunk_no_changes/Unleashed.Localization/Locales/UI/Shared.en-NZ.yaml",
+		"/C/src/trunk_no_changes/Unleashed.Localization/Locales/UI/SalesOrder/en-NZ.old.yaml",
+		"/F/var/lib/cassandra/data/unleashed/proddescription/unleashed-proddescription-ja-1-TOC.txt",
+		"/F/var/lib/cassandra/data/unleashed/proddescription/unleashed-proddescription-ja-1-Index.db",
+		"/F/var/lib/cassandra/data/unleashed/proddescription/unleashed-proddescription-ja-1-Data.db",
+		"/C/src/trunk_no_changes/Unleashed.Localization/Locales/UI/SalesOrders.en-NZ.yaml",
+		"/F/Software/apache-cassandra-2.0.0/tools/bin/cassandra-stress.bat",
+		"/C/src/trunk_no_changes/Unleashed.Localization/Locales/Common/Labels.en-NZ.yaml",
+		"/C/src/trunk_no_changes/Unleashed.Localization/Locales/UI/SalesOrders/New.en-NZ.yaml",
+		"/C/src/trunk_no_changes/Unleashed.Localization/Locales/UI/SalesOrders/Labels.en-NZ.yaml",
+		"/C/src/trunk_no_changes/Unleashed.Localization/Locales/SalesOrders/Labels.en-NZ.yaml",
+		"/C/src/trunk_no_changes/Unleashed.Localization/Locales/SalesOrders/UILabels.yaml",
+		"/F/var/lib/cassandra/commitlog/CommitLog-3-1379631935502.log",
+		"/C/Users/zdenek/Documents/SQL Server Management Studio/Projects/DB1_Results.csv",
+		"/C/Users/zdenek/Documents/SQL Server Management Studio/Projects/DB1_Results_with_more_columns.csv",
+		"/C/Users/zdenek/Documents/SQL Server Management Studio/Projects/TenantsStats.sql",
+		"/C/Users/zdenek/Documents/SQL Server Management Studio/Projects/DB2_Results.csv",
+		"/C/Temp/DIOS/dios_webapp/src/app/UserType.ts",
+		"/C/Temp/DIOS/dios_webapp/src/app/Credentials.ts",
+		"/C/Temp/DIOS/dios_webapp/package.json",
+		"/C/Temp/DIOS/dios_webapp/Gruntfile.js",
+		"/C/Temp/DIOS/dios_webapp/libs/d.ts/DefinitelyTyped/casperjs/casperjs.d.ts",
+		"/C/Temp/DIOS/dios_webapp/src/app/IDemoService.ts",
+		"/C/Temp/DIOS/dios_webapp/src/app/DemoService.ts",
+		"/C/Temp/DIOS/dios_webapp/output/app/app.js",
+		"/C/Temp/DIOS/dios_webapp/src/app/ISessionService.ts",
+		"/C/Temp/DIOS/dios_webapp/src/views/settingsModal.html",
+		"/C/Users/zdenek/AppData/Roaming/Sublime Text 3/Packages/User/Typescript.sublime-settings",
+		"/C/Temp/DIOS/dios_webapp/src/app/CalendarService.ts",
+		"/C/Temp/DIOS/dios_webapp/src/app/RegistrationController.js",
+		"/C/Temp/DIOS/dios_webapp/src/app/RegistrationController.ts",
+		"/C/Temp/DIOS/dios_webapp/src/app/IMonthService.ts",
+		"/C/Temp/DIOS/dios_webapp/src/app/IMonthService.js",
+		"/C/Temp/DIOS/dios_webapp/src/app/AuthentificationResponse.js",
+		"/C/Temp/DIOS/dios_webapp/src/app/AuthentificationResponse.ts",
+		"/C/Users/zdenek/Desktop/benchmark_invoice_template.xml",
+		"/C/Users/zdenek/Desktop/20130701 - ESTORE Unleashed Datasheet.csv",
+		"/C/Temp/DIOS/dios_webapp/src/app/Account.ts",
+		"/C/src/app.js",
+		"/C/src/app.adv.js",
+		"/C/Temp/DIOS/dios_webapp/output/release/index.html",
+		"/C/Temp/DIOS/dios_webapp/output/temp/index.min.html",
+		"/C/Temp/DIOS/dios_webapp/output/temp",
+		"/C/Temp/DIOS/dios_webapp/output/release/index.html/output/temp/index.html",
+		"/C/Temp/DIOS/dios_webapp/output/temp/index.html",
+		"/C/src/app.closure.js",
+		"/C/Temp/DIOS/dios_webapp/output/release/app-0.0.37.min.js",
+		"/C/Program Files (x86)/RabbitMQ Server/rabbitmq_server-3.1.5/sbin/rabbitmq-service.bat",
+		"/C/Program Files (x86)/RabbitMQ Server/rabbitmq_server-3.1.5/INSTALL",
+		"/C/Program Files (x86)/RabbitMQ Server/rabbitmq_server-3.1.5/ebin/rabbit_tests.beam",
+		"/C/Program Files (x86)/RabbitMQ Server/rabbitmq_server-3.1.5/ebin/vm_memory_monitor.beam",
+		"/C/Program Files (x86)/RabbitMQ Server/rabbitmq_server-3.1.5/ebin/rabbit.app",
+		"/C/Program Files (x86)/RabbitMQ Server/rabbitmq_server-3.1.5/ebin/rabbit_limiter.beam",
+		"/C/Temp/DayInOneSentence/html/content/listing.js",
+		"/C/Temp/DayInOneSentence/html/listing.html",
+		"/C/Temp/Brain/program.brain",
+		"/C/Temp/Brain/calculator.brain",
+		"/C/Temp/DayInOneSentence/dios_webapp/output/release/index.html",
+		"/C/Temp/DayInOneSentence/dios_webapp/output/app/views.js",
+		"/C/Temp/DayInOneSentence/dios_webapp/output/release/app-0.0.21.min.js",
+		"/C/Temp/DayInOneSentence/dios_webapp/output/src/views/loginModal.html",
+		"/C/Temp/DayInOneSentence/html/index.html",
+		"/C/Temp/DayInOneSentence/html/content/index.js",
+		"/C/Temp/DayInOneSentence/dios_webapp/src/views/home.html",
+		"/C/Temp/DayInOneSentence/dios_webapp/output/release/app-0.0.19.min.js",
+		"/C/Temp/DayInOneSentence/dios_webapp/output/release/style-0.0.16.min.css"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\"",
+			"\\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\\\"",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/Routing.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 319,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								319,
+								319
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"extensions":
+							[
+								"ts"
+							],
+							"syntax": "Packages/T3S/Typescript.tmlanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/App.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 427,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								72,
+								72
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"extensions":
+							[
+								"ts"
+							],
+							"syntax": "Packages/T3S/Typescript.tmlanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "libs/jquery.d.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 28239,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1002,
+								1002
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"extensions":
+							[
+								"ts"
+							],
+							"syntax": "Packages/T3S/Typescript.tmlanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/Configuration.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 89,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"extensions":
+							[
+								"ts"
+							],
+							"syntax": "Packages/T3S/Typescript.tmlanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/HomeController.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 162,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								29,
+								29
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"extensions":
+							[
+								"ts"
+							],
+							"syntax": "Packages/T3S/Typescript.tmlanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "Gruntfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4816,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								70,
+								70
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/shared/app.styl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 39,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/shared/skin.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 57683,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								263,
+								263
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"project": "unleashed.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"idemoser",
+				"dios_webapp\\src\\app\\IDemoService.ts"
+			],
+			[
+				"demoser",
+				"dios_webapp\\src\\app\\DemoService.ts"
+			],
+			[
+				"cre",
+				"dios_webapp\\src\\app\\Credentials.ts"
+			],
+			[
+				"app",
+				"dios_webapp\\src\\app\\App.ts"
+			],
+			[
+				"ats",
+				"dios_webapp\\src\\app\\App.ts"
+			],
+			[
+				"app.ts",
+				"dios_webapp\\src\\app\\App.ts"
+			],
+			[
+				"ises",
+				"dios_webapp\\src\\app\\ISessionService.ts"
+			],
+			[
+				"packe",
+				"dios_webapp\\package.json"
+			],
+			[
+				"cale",
+				"dios_webapp\\src\\app\\CalendarService.ts"
+			],
+			[
+				"acc",
+				"C:\\Temp\\DIOS\\dios_webapp\\src\\app\\Account.ts"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 131.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
