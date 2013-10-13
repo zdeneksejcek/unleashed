@@ -1,50 +1,50 @@
 <form action="/v2/Account/LogOn" id="inputform" method="post"><input id="MsgTitle" name="MsgTitle" type="hidden" value="" />
     <input id="MsgContent" name="MsgContent" type="hidden" value="" />
     <div class="formcontainer loginHolder">
-    <div class="topLinks">
-        <a href="http://support.unleashedsoftware.com/home" target="_blank">Help</a>
-    </div>
+        <div class="topLinks">
+            <a href="http://support.unleashedsoftware.com/home" target="_blank">Help</a>
+        </div>
+                        
+        <div class="logoBarLoginPage"></div>
+
+        <div class="contentHolder">
+            <div id="messageBox" class="msgBox short" style="display:none;">
+                <img id="messageBoxCloseButton" src="/v2/Content/mastercss/masterimages/btn_close.png" alt="Close this message." title="Close this message." />
+                <span id="msgIcon"></span>
+                <span id="messageBoxTitle" class="msgTitle"></span>
+                <span id="messageBoxContent" class="msgContent"></span>
+            </div>
+
+            <table class="alignRight alignCenter loginBoxHolder">
+                <tr>
+                    <td class="editor-field">
+                        <div><label for="username">Email</label></div><br clear="all" />
+                        <div><input autocomplete="off" id="username" name="username" type="text" value="" /></div>
+                    </td>
+                </tr>
+                <tr>
                     
-    <div class="logoBarLoginPage"></div>
-
-    <div class="contentHolder">
-    <div id="messageBox" class="msgBox short" style="display:none;">
-        <img id="messageBoxCloseButton" src="/v2/Content/mastercss/masterimages/btn_close.png" alt="Close this message." title="Close this message." />
-        <span id="msgIcon"></span>
-        <span id="messageBoxTitle" class="msgTitle"></span>
-        <span id="messageBoxContent" class="msgContent"></span>
+                </tr>
+                <tr>
+                    <td class="editor-field">
+                        <div><label for="password">Password</label></div><br clear="all" />
+                        <div><input id="password" name="password" type="password" /></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <input type="submit" value="Log On" id="btnLogOn" class="fm-button FloatRight last green" />
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <br />
+                        <a href="/v2/Account/Register">Register</a>
+                        &nbsp;&nbsp;|&nbsp;&nbsp;
+                        <a href="/v2/Account/ForgottenPassword">Forgot password?</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
     </div>
-
-    <table class="alignRight alignCenter loginBoxHolder">
-        <tr>
-            <td class="editor-field">
-                <div><label for="username">Email</label></div><br clear="all" />
-                <div><input autocomplete="off" id="username" name="username" type="text" value="" /></div>
-            </td>
-        </tr>
-        <tr>
-            
-        </tr>
-        <tr>
-            <td class="editor-field">
-                <div><label for="password">Password</label></div><br clear="all" />
-                <div><input id="password" name="password" type="password" /></div>
-            </td>
-        </tr>
-        <tr>
-            <td align="right">
-                <input type="submit" value="Log On" id="btnLogOn" class="fm-button FloatRight last green" />
-            </td>
-        </tr>
-        <tr>
-            <td align="right">
-                <br />
-                <a href="/v2/Account/Register">Register</a>
-                &nbsp;&nbsp;|&nbsp;&nbsp;
-                <a href="/v2/Account/ForgottenPassword">Forgot password?</a>
-            </td>
-        </tr>
-    </table>
-    </div>
-</div>
 </form>
