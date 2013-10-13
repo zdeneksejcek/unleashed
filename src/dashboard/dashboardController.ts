@@ -1,7 +1,6 @@
-/// <reference path="../libs/angular.d.ts" />
+/// <reference path="../../libs/angular.d.ts" />
 
-
-class HomeController {
+class DashboardController {
     static $inject = ["$scope"];
     constructor($scope) {
         $scope.vm = this;

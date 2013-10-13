@@ -124,7 +124,7 @@ module.exports = function(grunt) {
           }
       },
 
-      htmlmin: {                                     // Task
+      htmlmin: {
         dist: {
               options: {
                   removeComments: true,
@@ -134,6 +134,36 @@ module.exports = function(grunt) {
               src: ['src/**/*.html'],
               dest: 'output/temp/'
         }
+      },
+
+      watch: {
+        typescript: {
+          files: ['src/**/*.ts'],
+          tasks: ['app'],
+          options: {
+            spawn: false,
+            livereload: true
+          },
+        },
+
+        css: {
+          files: ['src/**/*.styl'],
+          tasks: ['stylus:app'],
+          options: {
+            spawn: false,
+            livereload: true
+          },
+        },
+
+        html: {
+          files: ['src/**/*.html'],
+          tasks: ['html'],
+          options: {
+            spawn: false,
+            livereload: true
+          },
+        }
+
       },
 
       bump: {
@@ -164,11 +194,14 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-htmlmin');
   grunt.loadNpmTasks('grunt-bump');
   grunt.loadNpmTasks('grunt-contrib-stylus');
+  grunt.loadNpmTasks('grunt-contrib-watch');
 
   grunt.registerTask('mrproper', ['clean']);
-  grunt.registerTask('app', ['mrproper','stylus:app','htmlmin', 'ngtemplates:app','typescript:app','preprocess:app',"copy:app"]);
+  grunt.registerTask('html', ['htmlmin', 'ngtemplates:app']);
+  grunt.registerTask('app', ['mrproper','stylus:app','html','typescript:app','preprocess:app',"copy:app"]);
   grunt.registerTask('release', ['app', 'stylus:release', 'preprocess:release','preprocess:config','copy:release','uglify','bump-only:patch']);
   grunt.registerTask('publish', ['ftp-deploy']);
 
   grunt.registerTask('tests', ['typescript:tests']);
 };
+
