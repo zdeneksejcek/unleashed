@@ -12,66 +12,90 @@
 	"buffers":
 	[
 		{
-			"file": "src/Routing.ts",
-			"settings":
-			{
-				"buffer_size": 401,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/App.ts",
-			"settings":
-			{
-				"buffer_size": 427,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "libs/jquery.d.ts",
-			"settings":
-			{
-				"buffer_size": 28239,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/Configuration.ts",
-			"settings":
-			{
-				"buffer_size": 89,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/HomeController.ts",
-			"settings":
-			{
-				"buffer_size": 162,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "Gruntfile.js",
 			"settings":
 			{
-				"buffer_size": 4804,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/shared/app.styl",
-			"settings":
-			{
-				"buffer_size": 39,
+				"buffer_size": 6073,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/shared/skin.css",
+			"file": "src/dashboard/dashboard.html",
 			"settings":
 			{
-				"buffer_size": 57683,
+				"buffer_size": 114,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/shared/dialogMaster.html",
+			"settings":
+			{
+				"buffer_size": 161,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/shared/dialogMasterController.ts",
+			"settings":
+			{
+				"buffer_size": 300,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "tests.html",
+			"settings":
+			{
+				"buffer_size": 871,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 961,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/ui/mainMenu.ts",
+			"settings":
+			{
+				"buffer_size": 43,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/shared/mainMaster.html",
+			"settings":
+			{
+				"buffer_size": 137,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/dashboard/dashboardController.ts",
+			"settings":
+			{
+				"buffer_size": 204,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/Routing.ts",
+			"settings":
+			{
+				"buffer_size": 498,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/account/login.html",
+			"settings":
+			{
+				"buffer_size": 16,
 				"line_ending": "Windows"
 			}
 		}
@@ -103,9 +127,35 @@
 	},
 	"file_history":
 	[
+		"/C/src/unleashed/package.json",
+		"/C/src/unleashed/output/tests/tests.html",
+		"/C/src/unleashed/node_modules/mocha/index.js",
+		"/C/src/unleashed/src/App.ts",
+		"/C/src/unleashed/src/shared/404.html",
+		"/C/src/unleashed/node_modules/mocha/mocha.js",
+		"/C/src/unleashed/node_modules/mocha/lib/mocha.js",
+		"/C/src/unleashed/node_modules/chai/lib/chai.js",
+		"/C/src/unleashed/src/shared/dialogMaster.ts",
+		"/C/src/unleashed/src/shared/mainMaster.ts",
+		"/C/src/unleashed/src/views/home.html",
+		"/C/src/unleashed/output/release/index.html",
+		"/C/src/unleashed/output/release/app-0.0.18.min.js",
+		"/C/src/unleashed/output/release/style-0.0.18.min.css",
+		"/C/src/unleashed/src/account/login.html",
+		"/C/src/unleashed/src/shared/mainMaster.html",
+		"/C/src/unleashed/output/app/views.js",
+		"/C/src/unleashed/src/shared/app.styl",
+		"/C/src/unleashed/src/account/smallWindow.html",
+		"/C/src/unleashed/index.tpl.html",
+		"/C/src/unleashed/src/HomeController.ts",
+		"/C/src/unleashed/Gruntfile.js",
+		"/C/src/unleashed/src/shared/skin.css",
+		"/C/src/unleashed/output/release/style-0.0.14.min.css",
+		"/C/src/unleashed/src/Routing.ts",
+		"/C/src/unleashed/libs/jquery.d.ts",
+		"/C/src/unleashed/src/Configuration.ts",
 		"/C/src/unleashed/libs/angular.d.ts",
 		"/C/src/unleashed/src/shared/layout.css",
-		"/C/src/unleashed/src/views/home.html",
 		"/C/src/experimental/Gruntfile.js",
 		"/C/Temp/BH/web/templates/html_footer.php",
 		"/C/src/experimental/.gitignore",
@@ -204,37 +254,11 @@
 		"/C/Users/zdenek/Desktop/20130701 - ESTORE Unleashed Datasheet.csv",
 		"/C/Temp/DIOS/dios_webapp/src/app/Account.ts",
 		"/C/src/app.js",
-		"/C/src/app.adv.js",
-		"/C/Temp/DIOS/dios_webapp/output/release/index.html",
-		"/C/Temp/DIOS/dios_webapp/output/temp/index.min.html",
-		"/C/Temp/DIOS/dios_webapp/output/temp",
-		"/C/Temp/DIOS/dios_webapp/output/release/index.html/output/temp/index.html",
-		"/C/Temp/DIOS/dios_webapp/output/temp/index.html",
-		"/C/src/app.closure.js",
-		"/C/Temp/DIOS/dios_webapp/output/release/app-0.0.37.min.js",
-		"/C/Program Files (x86)/RabbitMQ Server/rabbitmq_server-3.1.5/sbin/rabbitmq-service.bat",
-		"/C/Program Files (x86)/RabbitMQ Server/rabbitmq_server-3.1.5/INSTALL",
-		"/C/Program Files (x86)/RabbitMQ Server/rabbitmq_server-3.1.5/ebin/rabbit_tests.beam",
-		"/C/Program Files (x86)/RabbitMQ Server/rabbitmq_server-3.1.5/ebin/vm_memory_monitor.beam",
-		"/C/Program Files (x86)/RabbitMQ Server/rabbitmq_server-3.1.5/ebin/rabbit.app",
-		"/C/Program Files (x86)/RabbitMQ Server/rabbitmq_server-3.1.5/ebin/rabbit_limiter.beam",
-		"/C/Temp/DayInOneSentence/html/content/listing.js",
-		"/C/Temp/DayInOneSentence/html/listing.html",
-		"/C/Temp/Brain/program.brain",
-		"/C/Temp/Brain/calculator.brain",
-		"/C/Temp/DayInOneSentence/dios_webapp/output/release/index.html",
-		"/C/Temp/DayInOneSentence/dios_webapp/output/app/views.js",
-		"/C/Temp/DayInOneSentence/dios_webapp/output/release/app-0.0.21.min.js",
-		"/C/Temp/DayInOneSentence/dios_webapp/output/src/views/loginModal.html",
-		"/C/Temp/DayInOneSentence/html/index.html",
-		"/C/Temp/DayInOneSentence/html/content/index.js",
-		"/C/Temp/DayInOneSentence/dios_webapp/src/views/home.html",
-		"/C/Temp/DayInOneSentence/dios_webapp/output/release/app-0.0.19.min.js",
-		"/C/Temp/DayInOneSentence/dios_webapp/output/release/style-0.0.16.min.css"
+		"/C/src/app.adv.js"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -248,6 +272,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"404",
 			"\"",
 			"\\n"
 		],
@@ -269,66 +294,56 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 5,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/Routing.ts",
+					"file": "Gruntfile.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 401,
+						"buffer_size": 6073,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								401,
-								401
+								3113,
+								3113
 							]
 						],
 						"settings":
 						{
-							"auto_complete": false,
-							"extensions":
-							[
-								"ts"
-							],
-							"syntax": "Packages/T3S/Typescript.tmlanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1139.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "src/App.ts",
+					"file": "src/dashboard/dashboard.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 427,
+						"buffer_size": 114,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								72,
-								72
+								114,
+								114
 							]
 						],
 						"settings":
 						{
-							"auto_complete": false,
-							"extensions":
-							[
-								"ts"
-							],
-							"syntax": "Packages/T3S/Typescript.tmlanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -338,31 +353,24 @@
 				},
 				{
 					"buffer": 2,
-					"file": "libs/jquery.d.ts",
+					"file": "src/shared/dialogMaster.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 28239,
+						"buffer_size": 161,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1002,
-								1002
+								73,
+								79
 							]
 						],
 						"settings":
 						{
-							"auto_complete": false,
-							"extensions":
-							[
-								"ts"
-							],
-							"syntax": "Packages/T3S/Typescript.tmlanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -372,28 +380,23 @@
 				},
 				{
 					"buffer": 3,
-					"file": "src/Configuration.ts",
+					"file": "src/shared/dialogMasterController.ts",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 89,
+						"buffer_size": 300,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								300,
+								300
 							]
 						],
 						"settings":
 						{
-							"auto_complete": false,
-							"extensions":
-							[
-								"ts"
-							],
 							"syntax": "Packages/T3S/Typescript.tmlanguage"
 						},
 						"translation.x": 0.0,
@@ -404,19 +407,127 @@
 				},
 				{
 					"buffer": 4,
-					"file": "src/HomeController.ts",
+					"file": "tests.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 162,
+						"buffer_size": 871,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								29,
-								29
+								821,
+								821
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 961,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/ui/mainMenu.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 43,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								38,
+								38
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/T3S/Typescript.tmlanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/shared/mainMaster.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 137,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								137,
+								137
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/dashboard/dashboardController.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 204,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								204,
+								204
 							]
 						],
 						"settings":
@@ -435,27 +546,25 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "Gruntfile.js",
+					"buffer": 9,
+					"file": "src/Routing.ts",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4804,
+						"buffer_size": 498,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								417,
+								417
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/T3S/Typescript.tmlanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -464,54 +573,25 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "src/shared/app.styl",
+					"buffer": 10,
+					"file": "src/account/login.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 39,
+						"buffer_size": 16,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								16,
+								16
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "src/shared/skin.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 57683,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								263,
-								263
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -634,7 +714,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 131.0,
+	"side_bar_width": 205.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

@@ -15,7 +15,7 @@
   	var assert = chai.assert;
 
 	describe('Foobar', function() {
-	  describe('#sayHello()', function() {
+	  describe('First Unleashed Test', function() {
 	    it('should return some text', function() {
 	      
 	      var foobar = {
@@ -30,12 +30,13 @@
 	});
   </script>
 
-
-
   <script>
     mocha.checkLeaks();
     mocha.globals(['jQuery']);
-    mocha.run();
+	if (window.mochaPhantomJS)
+	  mochaPhantomJS.run();
+	else
+	  mocha.run();
   </script>
 </body>
 </html>
