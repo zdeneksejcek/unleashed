@@ -1,0 +1,41 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Mocha Tests</title>
+  <link rel="stylesheet" href="mocha.css" />
+</head>
+<body>
+  <div id="mocha"></div>
+  <script src="jquery.js"></script>
+  <script src="chai.js"></script>
+  <script src="mocha.js"></script>
+  <script>mocha.setup('bdd')</script>
+
+  <script>
+  	var assert = chai.assert;
+
+	describe('Foobar', function() {
+	  describe('#sayHello()', function() {
+	    it('should return some text', function() {
+	      
+	      var foobar = {
+	        sayHello: function() {
+	          return 'Hello World!';
+	        }
+	      };
+
+	      assert(foobar.sayHello() === 'Hello World!', 'Was expecting "Hello World!"');
+	    })
+	  })
+	});
+  </script>
+
+
+
+  <script>
+    mocha.checkLeaks();
+    mocha.globals(['jQuery']);
+    mocha.run();
+  </script>
+</body>
+</html>

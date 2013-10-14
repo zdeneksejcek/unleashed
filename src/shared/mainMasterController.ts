@@ -1,9 +1,9 @@
 /// <reference path="../../libs/angular.d.ts" />
 
-class DashboardController {
+class MainMasterController {
     static $inject = ["$scope"];
     constructor($scope) {
         $scope.vm = this;
-        $scope.date = new Date();
+        $scope.viewPath = 'dashboard/dashboard.html';
     }
 }

@@ -18,7 +18,7 @@ module.exports = function(grunt) {
 
     typescript: {
         app: {
-            src: ['src/App.ts'],
+            src: ['src/**/*.ts','src/App.ts'],
             dest: 'output/app/app.js'
         },
 
@@ -100,6 +100,16 @@ module.exports = function(grunt) {
           release: {
               files: [
                   {expand: true, src: ['output/temp/index.min.html'], dest: 'output/release/index.html', flatten: true}
+              ]
+          },
+          tests: {
+              files: [
+                  {expand: true, src: ['libs/angular.js'], dest: 'output/tests/', flatten: true},
+                  {expand: true, src: ['libs/jquery.js'], dest: 'output/tests/', flatten: true},
+                  {expand: true, src: ['libs/mocha.js'], dest: 'output/tests/', flatten: true},
+                  {expand: true, src: ['libs/mocha.css'], dest: 'output/tests/', flatten: true},
+                  {expand: true, src: ['tests.html'], dest: 'output/tests/', flatten: true},
+                  {expand: true, src: ['libs/chai.js'], dest: 'output/tests/', flatten: true}
               ]
           }
       },
@@ -202,6 +212,6 @@ module.exports = function(grunt) {
   grunt.registerTask('release', ['app', 'stylus:release', 'preprocess:release','preprocess:config','copy:release','uglify','bump-only:patch']);
   grunt.registerTask('publish', ['ftp-deploy']);
 
-  grunt.registerTask('tests', ['typescript:tests']);
+  grunt.registerTask('tests', ['copy:tests']);
 };
 

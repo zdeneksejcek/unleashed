@@ -5,8 +5,10 @@ class Router {
 
     constructor($routeProvider:ng.IRouteProvider) {
         $routeProvider
-        	.when('/account/login',  <ng.IRoute>{ templateUrl: 'account/login.html' })
-            .when('/',  <ng.IRoute>{ templateUrl: 'dashboard/dashboard.html', controller: 'DashboardController' })
-            .otherwise( <ng.IRoute>{ templateUrl: '404.html' });
+        	.when('/account/:action',  		{ templateUrl: 'shared/dialogMaster.html' })
+            .when('/:controller/:action',  	{ templateUrl: 'shared/mainMaster.html'})
+            .when('/',						{ templateUrl: 'shared/mainMaster.html'})
+
+            .otherwise( <ng.IRoute>{ templateUrl: 'shared/404.html' });
     }
 }
