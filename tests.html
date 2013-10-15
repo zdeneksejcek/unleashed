@@ -10,27 +10,11 @@
   <script src="chai.js"></script>
   <script src="mocha.js"></script>
   <script>mocha.setup('bdd')</script>
+  <script src="tests.js"></script>
 
   <script>
   	var assert = chai.assert;
 
-	describe('Foobar', function() {
-	  describe('First Unleashed Test', function() {
-	    it('should return some text', function() {
-	      
-	      var foobar = {
-	        sayHello: function() {
-	          return 'Hello World!';
-	        }
-	      };
-
-	      assert(foobar.sayHello() === 'Hello World!', 'Was expecting "Hello World!"');
-	    })
-	  })
-	});
-  </script>
-
-  <script>
     mocha.checkLeaks();
     mocha.globals(['jQuery']);
 	if (window.mochaPhantomJS)

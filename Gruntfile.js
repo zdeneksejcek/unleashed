@@ -18,13 +18,13 @@ module.exports = function(grunt) {
 
     typescript: {
         app: {
-            src: ['src/**/*.ts','src/App.ts'],
+            src: ['src/**/*.ts','src/App.ts','!src/**/*Tests.ts'],
             dest: 'output/app/app.js'
         },
 
         tests: {
-            src: ['src/tests/**/*.ts'],
-            dest: 'output/tests/app.tests.js'
+            src: ['src/**/*Tests.ts'],
+            dest: 'output/tests/tests.js'
         }
     },
 
@@ -149,7 +149,7 @@ module.exports = function(grunt) {
       watch: {
         typescript: {
           files: ['src/**/*.ts'],
-          tasks: ['app'],
+          tasks: ['app','tests'],
           options: {
             spawn: false,
             livereload: true
@@ -162,19 +162,22 @@ module.exports = function(grunt) {
           options: {
             spawn: false,
             livereload: true
-          },
+          }
         },
 
         html: {
           files: ['src/**/*.html'],
-          tasks: ['html'],
+          tasks: ['html','tests'],
           options: {
             spawn: false,
             livereload: true
-          },
+          }
         }
-
       },
+
+		mocha_phantomjs: {
+			all: ['output/tests/tests.html']
+		},
 
       bump: {
           options: {
@@ -205,6 +208,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-bump');
   grunt.loadNpmTasks('grunt-contrib-stylus');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-mocha-phantomjs');
 
   grunt.registerTask('mrproper', ['clean']);
   grunt.registerTask('html', ['htmlmin', 'ngtemplates:app']);
@@ -212,6 +216,6 @@ module.exports = function(grunt) {
   grunt.registerTask('release', ['app', 'stylus:release', 'preprocess:release','preprocess:config','copy:release','uglify','bump-only:patch']);
   grunt.registerTask('publish', ['ftp-deploy']);
 
-  grunt.registerTask('tests', ['copy:tests']);
+  grunt.registerTask('tests', ['copy:tests','typescript:tests', 'mocha_phantomjs']);
 };
 
