@@ -1,7 +1,7 @@
 {
   "name": "unleashedexperimental",
   "preferGlobal": false,
-  "version": "0.0.23",
+  "version": "0.0.25",
   "author": "Zdenek Sejcek <zdenek@unleashedsoftware.com>",
   "description": "Unleashed Experimental SPA",
   "contributors": [
@@ -25,7 +25,6 @@
     "grunt-contrib-cssmin": "*",
     "grunt-contrib-htmlmin": "*",
     "grunt-bump": "*",
-    "protractor": "*",
     "grunt-contrib-stylus": "*",
     "http-server": "~0.5.5",
     "grunt-contrib-watch": "*",
