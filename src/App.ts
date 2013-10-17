@@ -19,3 +19,11 @@ if (APPCONFIG.ENV == Environment.APP) {
 
 // configs
 app.config(Router);
+
+
+$(document).keydown(function(evt) {
+    if (evt.keyCode==70 && (evt.ctrlKey)) {
+        evt.preventDefault();
+        $('#searchModal').modal();
+	}
+});
