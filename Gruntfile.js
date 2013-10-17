@@ -94,7 +94,9 @@ module.exports = function(grunt) {
           app: {
               files: [
                   {expand: true, src: ['libs/angular.js'], dest: 'output/app/', flatten: true},
-                  {expand: true, src: ['libs/jquery.js'], dest: 'output/app/', flatten: true}
+                  {expand: true, src: ['libs/jquery.js'], dest: 'output/app/', flatten: true},
+                  {expand: true, src: ['libs/bootstrap.js'], dest: 'output/app/', flatten: true},
+                  {expand: true, src: ['libs/bootstrap.css'], dest: 'output/app/', flatten: true}
               ]
           },
           release: {
