@@ -22,8 +22,15 @@ app.config(Router);
 
 
 $(document).keydown(function(evt) {
+	$('#searchModal').on('shown.bs.modal', function () {
+	    $('#searchInput').val("");
+	    $('#searchInput').focus();
+	})    
+
     if (evt.keyCode==70 && (evt.ctrlKey)) {
         evt.preventDefault();
-        $('#searchModal').modal();
+        $('#searchModal').modal({
+  			keyboard: true
+		});
 	}
 });

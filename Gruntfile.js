@@ -96,12 +96,14 @@ module.exports = function(grunt) {
                   {expand: true, src: ['libs/angular.js'], dest: 'output/app/', flatten: true},
                   {expand: true, src: ['libs/jquery.js'], dest: 'output/app/', flatten: true},
                   {expand: true, src: ['libs/bootstrap.js'], dest: 'output/app/', flatten: true},
-                  {expand: true, src: ['libs/bootstrap.css'], dest: 'output/app/', flatten: true}
+                  {expand: true, src: ['libs/bootstrap.css'], dest: 'output/app/', flatten: true},
+                  {expand: true, src: ['assets/*'], dest: 'output/app/images/', flatten: true}
               ]
           },
           release: {
               files: [
-                  {expand: true, src: ['output/temp/index.min.html'], dest: 'output/release/index.html', flatten: true}
+                  {expand: true, src: ['output/temp/index.min.html'], dest: 'output/release/index.html', flatten: true},
+                  {expand: true, src: ['assets/*'], dest: 'output/release/images/', flatten: true}
               ]
           },
           tests: {
@@ -151,7 +153,7 @@ module.exports = function(grunt) {
       watch: {
         typescript: {
           files: ['src/**/*.ts'],
-          tasks: ['app','tests'],
+          tasks: ['app'],
           options: {
             spawn: false,
             livereload: true
@@ -169,7 +171,7 @@ module.exports = function(grunt) {
 
         html: {
           files: ['src/**/*.html'],
-          tasks: ['html','tests'],
+          tasks: ['html'],
           options: {
             spawn: false,
             livereload: true
