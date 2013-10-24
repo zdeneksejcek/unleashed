@@ -17,8 +17,7 @@
     <script src="jquery.js"></script>
     <script src="angular.js"></script>
     <script src="bootstrap.js"></script>
-	<link href="bootstrap.css" rel="stylesheet">
-    
+	  <link href="bootstrap.css" rel="stylesheet">
     <script src="app.js"></script>
     <script src="views.js"></script>
     <link href="style.css" rel="stylesheet">
@@ -39,18 +38,25 @@
     <!-- @endif -->
   </head>
   <body>
-	<div ng-controller="MainMasterController">
-	    <div ng-include="'shared/searchDialog.html'"></div>
-	    <!-- Fixed navbar -->
-	    <div class="navbar navbar-default navbar-fixed-top unleashed-navbar">
-	      <div class="container">
-          <div ng-include="'shared/navbar.html'"></div>
-	        <div ng-include="'shared/mainMenu.html'"></div>
-	      </div>
-	    </div>
-	    <div class="container">
-			   <div ng-view></div>
-	    </div> <!-- /container -->
-	</div>
+    <div id="wrap">
+      <div ng-controller="MainMasterController">
+  	    <div ng-include="'shared/searchDialog.html'"></div>
+		    <!-- Fixed navbar -->
+          <div class="navbar navbar-default navbar-fixed-top unleashed-navbar">
+  		      <div class="container">
+  	          <div ng-include="'shared/navbar.html'"></div>
+  		        <div ng-include="'shared/mainMenu.html'"></div>
+  		      </div>
+  		    </div>
+          <div class="container">
+             <div ng-view></div>
+          </div> <!-- /container -->
+      </div>
+  	</div>
+    <div id="footer">
+      <div class="container">
+        <p class="text-muted credit">Example courtesy <a href="http://martinbean.co.uk">Martin Bean</a> and <a href="http://ryanfait.com/sticky-footer/">Ryan Fait</a>.</p>
+      </div>        
+    </div>
   </body>
 </html>

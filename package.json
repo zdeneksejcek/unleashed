@@ -1,7 +1,7 @@
 {
   "name": "unleashedexperimental",
   "preferGlobal": false,
-  "version": "0.0.40",
+  "version": "0.0.41",
   "author": "Zdenek Sejcek <zdenek@unleashedsoftware.com>",
   "description": "Unleashed Experimental SPA",
   "contributors": [

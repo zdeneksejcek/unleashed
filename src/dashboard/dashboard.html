@@ -1,61 +1,37 @@
-<div class="table-responsive">
-<table class="table">
-          <thead>
-            <tr>
-              <th>#</th>
-              <th>Order Date</th>
-              <th>Delivery Date</th>
-              <th>Supplier</th>
-              <th>Supplier Ref</th>
-              <th>Order Status</th>
-              <th>Warehouse</th>
-              <th>Currency</th>
-              <th>Total (NZD)</th>
-              <th>Action</th>              
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>1</td>
-              <td>Table cell</td>
-              <td>Table cell</td>
-              <td>Table cell</td>
-              <td>Table cell</td>
-              <td>Table cell</td>
-              <td>Table cell</td>
-              <td>Table cell</td>
-              <td>Table cell</td>
-              <td>Table cell</td>              
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>Table cell</td>
-              <td>Table cell</td>
-              <td>Table cell</td>
-              <td>Table cell</td>
-              <td>Table cell</td>
-              <td>Table cell</td>
-              <td>Table cell</td>
-              <td>Table cell</td>
-              <td>Table cell</td>              
-            </tr>
-            <tr>
-              <td>3</td>
-              <td>Table cell</td>
-              <td>Table cell</td>
-              <td>Table cell</td>
-              <td>Table cell</td>
-              <td>Table cell</td>
-              <td>Table cell</td>
-              <td>Table cell</td>
-              <td>Table cell</td>
-              <td>Table cell</td>              
-            </tr>
-          </tbody>
-        </table>
-</div>
-
 <div ng-controller="DashboardController">
 	<h1>Dashboard {{ date }}</h1>
 	<p>This is new dashboard page</p>
+
+	<div class="table-responsive">
+			<table class="table">
+	          <thead>
+	            <tr>
+	              <th>#</th>
+	              <th>Order Date</th>
+	              <th>Delivery Date</th>
+	              <th>Supplier</th>
+	              <th>Supplier Ref</th>
+	              <th>Order Status</th>
+	              <th>Warehouse</th>
+	              <th>Currency</th>
+	              <th>Total (NZD)</th>
+	              <th>Action</th>              
+	            </tr>
+	          </thead>
+	          <tbody>
+	            <tr ng-repeat="i in rows">
+	              <td>1</td>
+	              <td>Table cell</td>
+	              <td>Table cell</td>
+	              <td>Table cell</td>
+	              <td>Table cell</td>
+	              <td>Table cell</td>
+	              <td>Table cell</td>
+	              <td>Table cell</td>
+	              <td>Table cell</td>
+	              <td>Table cell</td>              
+	            </tr>
+	          </tbody>
+	        </table>
+	</div>
 </div>
