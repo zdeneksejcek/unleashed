@@ -11,7 +11,7 @@ class DashboardController {
     }
 
     getRows() {
-		return new Array(500);
+		return new Array(100);
     }
 
 }
